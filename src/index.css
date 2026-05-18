@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --color-primary: #4338CA;
+  --color-primary-hover: #3730A3;
+  --color-bg-warm: #FAF5F0;
+  --color-bg-dark: #1A1A2E;
+  --color-bg-dark-card: #252540;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}

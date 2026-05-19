@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1A1A2E] text-white/70 pt-16 pb-8" id="footer">
+    <footer className="text-white/70 pt-16 pb-8" id="footer">
    <section className="relative overflow-hidden bg-black min-h-screen flex items-start justify-center px-6">
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center text-center pt-20">

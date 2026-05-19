@@ -31,7 +31,7 @@ const painPoints = [
 
 const Problem = () => {
   return (
-    <section className="bg-[#d9d2c2]" id="problem">
+    <section className="">
       <div className="w-full max-w-[1140px] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
@@ -46,7 +46,7 @@ const Problem = () => {
         </div>
 
         {/* Cards */}
-        <div className="bg-[#CBC5B9] rounded-xl py-16 px-10 grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-[900px] mx-auto">
+        <div className="bg-[#CDCCCC99] rounded-xl py-16 px-10 grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-[900px] mx-auto">
           {painPoints.map((point, index) => (
             <div
               key={index}

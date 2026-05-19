@@ -23,7 +23,7 @@ const audiences = [
 
 const Audience = () => {
   return (
-    <section className="py-4 bg-[#d9d2c2]" id="audience">
+    <section className="py-4" id="audience">
       <div className="w-full max-w-[1140px] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
@@ -38,7 +38,7 @@ const Audience = () => {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="bg-[#CDCCCC99] rounded-xl py-8 px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {audiences.map((item, index) => (
             <div
               key={index}

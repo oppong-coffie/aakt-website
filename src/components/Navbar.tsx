@@ -30,6 +30,12 @@ const Navbar = () => {
 
         {/* Actions */}
         <div className="flex items-center gap-3">
+          <button className="hidden md:block rounded-xl bg-[#3461FF] px-5 py-2 text-[14px] font-semibold text-white shadow-sm transition hover:bg-blue-700">
+            Sign Up for Free
+          </button>
+          <button className="hidden md:block rounded-xl border border-gray-300 bg-white px-5 py-2 text-[14px] font-semibold text-black shadow-sm transition hover:bg-gray-50">
+            Log In
+          </button>
 
           {/* Hamburger */}
           <button

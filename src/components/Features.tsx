@@ -37,7 +37,7 @@ const Features = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="py-24 bg-[#d9d2c2] relative" id="features">
+    <section className="py-24 relative" id="features">
       <div className="w-full max-w-[1140px] mx-auto pl-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* Left: Feature List */}
         <div>
@@ -75,7 +75,7 @@ const Features = () => {
         {/* Right: Mockups */}
         <div className="flex flex-col gap-4 ">
           {/* Top Mockup */}
-          <div className="bg-[#CBC5B9] rounded-xl py-12 pl-16 overflow-hidden shadow-xl">
+          <div className="bg-[#CDCCCC99] rounded-xl py-12 pl-16 overflow-hidden shadow-xl">
            <img
                     src="/feature0.png" // your dashboard image
                     alt="Dashboard Preview"
@@ -85,7 +85,7 @@ const Features = () => {
           </div>
 
           {/* Bottom Mockup - Chart */}
-          <div className="bg-[#CBC5B9] rounded-xl  py-9 pl-20 overflow-hidden shadow-xl">
+          <div className="bg-[#CDCCCC99] rounded-xl  py-9 pl-20 overflow-hidden shadow-xl">
          <img
                     src="/feature.png" // your dashboard image
                     alt="Dashboard Preview"

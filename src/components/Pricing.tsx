@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <section className="py-24 bg-[#d9d2c2]" id="pricing">
+    <section className="py-24" id="pricing">
       <div className="w-full max-w-[700px] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">

@@ -35,13 +35,11 @@ const Problem = () => {
       <div className="w-full max-w-[1140px] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-[42px] font-bold leading-[1.15] tracking-tight text-[#1A1A2E] mb-4">
-            Is your business fragmented<br />
-            across scattered tools?
+          <h2 className="text-3xl md:text-[32px] leading-[1.15] tracking-tight text-[#1A1A2E] mb-4">
+            Why AAKT? <br />A Smarter Way to Run Work.
           </h2>
           <p className="text-[15px] text-gray-500 leading-relaxed max-w-[620px] mx-auto">
-            Modern businesses are drowning in spreadsheets, disconnected apps, lost documents,
-            and manual processes. It slows you down and limits your ability to scale.
+            AAKT unifies tasks, teams, documents, and operations into one intelligent workspace, eliminating scattered tools and improving alignment, speed, and clarity through built-in intelligence.
           </p>
         </div>
 

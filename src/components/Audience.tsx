@@ -27,7 +27,7 @@ const Audience = () => {
       <div className="w-full max-w-[1140px] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-[42px] font-bold leading-[1.15] tracking-tight text-[#1A1A2E] mb-4">
+          <h2 className="text-3xl md:text-[42px] leading-[1.15] tracking-tight text-[#1A1A2E] mb-4">
             Built for Organizations Scaling<br />
             Operations.
           </h2>

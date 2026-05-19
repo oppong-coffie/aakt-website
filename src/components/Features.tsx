@@ -41,7 +41,7 @@ const Features = () => {
       <div className="w-full max-w-[1140px] mx-auto pl-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* Left: Feature List */}
         <div>
-          <h2 className="text-3xl md:text-[40px] font-bold leading-[1.15] tracking-tight mb-3">
+          <h2 className="text-3xl md:text-[40px] leading-[1.15] tracking-tight mb-3">
             Meet AAKT Your<br />
             Central Source of Truth
           </h2>

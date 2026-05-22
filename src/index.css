@@ -17,3 +17,14 @@ html {
 body {
   font-family: var(--font-sans);
 }
+
+/* Hover color change on all text elements */
+h1, h2, h3, h4, h5, h6,
+p, span, li, a, label, blockquote {
+  transition: color 0.4s ease;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover,
+p:hover, span:hover, li:hover, a:hover, label:hover, blockquote:hover {
+  color: #3461FF;
+}

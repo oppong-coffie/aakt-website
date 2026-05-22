@@ -40,7 +40,7 @@ const Features = () => {
     <section className="py-24 relative" id="features">
       <div className="w-full max-w-[1140px] mx-auto pl-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
         {/* Left: Feature List */}
-        <div>
+        <div data-aos="fade-right" data-aos-duration="2000">
           <h2 className="text-3xl md:text-[40px] leading-[1.15] tracking-tight mb-3">
             Meet AAKT Your<br />
             Central Source of Truth
@@ -58,6 +58,9 @@ const Features = () => {
                 }`}
                 onMouseEnter={() => setActiveIndex(index)}
                 id={`feature-item-${index}`}
+                data-aos="fade-up"
+                data-aos-duration="1600"
+                data-aos-delay={`${index * 150}`}
               >
                 <span
                   className="w-2.5 h-2.5 rounded-full shrink-0 mt-1.5"
@@ -75,21 +78,31 @@ const Features = () => {
         {/* Right: Mockups */}
         <div className="flex flex-col gap-4 ">
           {/* Top Mockup */}
-          <div className="bg-[#CDCCCC99] rounded-xl py-12 pl-16 overflow-hidden shadow-xl">
+          <div
+            className="bg-[#CDCCCC99] rounded-xl py-12 pl-16 overflow-hidden shadow-xl h-[320px]"
+            data-aos="fade-left"
+            data-aos-duration="2200"
+            data-aos-delay="200"
+          >
            <img
                     src="/feature0.png" // your dashboard image
                     alt="Dashboard Preview"
-                    className="w-ful rounded-xl shadow-lg"
+                    className="w-full rounded-xl shadow-lg"
                   />
            
           </div>
 
           {/* Bottom Mockup - Chart */}
-          <div className="bg-[#CDCCCC99] rounded-xl  py-9 pl-20 overflow-hidden shadow-xl">
+          <div
+            className="bg-[#CDCCCC99] rounded-xl h-[320px] py-9 pl-20 overflow-hidden shadow-xl"
+            data-aos="fade-left"
+            data-aos-duration="2200"
+            data-aos-delay="500"
+          >
          <img
                     src="/feature.png" // your dashboard image
                     alt="Dashboard Preview"
-                    className="w-96 max-w-3xl rounded-2xl object-cover"
+                    className="w-full  rounded-2xl object-cover"
                   />
           </div>
         </div>

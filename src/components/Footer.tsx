@@ -12,6 +12,8 @@ const Footer = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="max-w-4xl text-white text-3xl sm:text-3xl md:text-4xl font-semibold leading-tight tracking-tight"
+          data-aos="fade-up"
+          data-aos-duration="2200"
         >
           Start Building Smarter
           <br />
@@ -24,6 +26,9 @@ const Footer = () => {
           animate={{ opacity: 0.8, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
           className="mt-1 text-lg text-gray-300"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="200"
         >
           Transform from scattered chaos to intelligent clarity.
         </motion.p>
@@ -34,6 +39,9 @@ const Footer = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35, duration: 0.6 }}
           className="mt-5 flex flex-wrap items-center justify-center gap-4"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="400"
         >
           <button className="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition text-white font-semibold shadow-lg">
             Get Free Early Access
@@ -50,6 +58,9 @@ const Footer = () => {
           animate={{ opacity: 0.75 }}
           transition={{ delay: 0.5, duration: 0.6 }}
           className="mt-6 flex flex-wrap items-center justify-center gap-8 text-sm text-gray-300"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="600"
         >
           <a href="#" className="hover:text-white transition">
             Privacy Policy
@@ -70,7 +81,12 @@ const Footer = () => {
       </div>
 
       {/* Giant Background Text */}
-      <div className="absolute bottom-[-120px] left-1/2 -translate-x-1/2 select-none pointer-events-none">
+      <div
+        className="absolute bottom-[-120px] left-1/2 -translate-x-1/2 select-none pointer-events-none"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-delay="400"
+      >
         <h1 className="text-[260px] sm:text-[340px] md:text-[420px] font-black tracking-[-0.08em] text-[#5c5a55]/80 leading-none">
           AAKT
         </h1>

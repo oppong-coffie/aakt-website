@@ -35,21 +35,38 @@ const Problem = () => {
       <div className="w-full max-w-[1140px] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-[32px] leading-[1.15] tracking-tight text-[#1A1A2E] mb-4">
+          <h2
+            className="text-3xl md:text-[32px] leading-[1.15] tracking-tight text-[#1A1A2E] mb-4"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             Why AAKT? <br />A Smarter Way to Run Work.
           </h2>
-          <p className="text-[15px] text-gray-500 leading-relaxed max-w-[620px] mx-auto">
+          <p
+            className="text-[15px] text-gray-500 leading-relaxed max-w-[620px] mx-auto"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="150"
+          >
             AAKT unifies tasks, teams, documents, and operations into one intelligent workspace, eliminating scattered tools and improving alignment, speed, and clarity through built-in intelligence.
           </p>
         </div>
 
         {/* Cards */}
-        <div className="bg-[#CDCCCC99] rounded-xl py-16 px-10 grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-[900px] mx-auto">
+        <div
+          className="bg-[#CDCCCC99] rounded-xl py-16 px-10 grid grid-cols-1 sm:grid-cols-3 gap-5 max-w-[900px] mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="200"
+        >
           {painPoints.map((point, index) => (
             <div
               key={index}
               className="bg-white rounded-xl p-8 border border-gray-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-transparent cursor-default"
               id={`problem-card-${index}`}
+              data-aos="zoom-in"
+              data-aos-duration="1800"
+              data-aos-delay={`${400 + index * 200}`}
             >
               <div className={`w-11 h-11 rounded-lg flex items-center justify-center mb-6 ${point.iconBg}`}>
                 {point.icon}

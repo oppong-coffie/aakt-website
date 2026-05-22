@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
+  // const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -30,15 +30,21 @@ const Navbar = () => {
 
         {/* Actions */}
         <div className="flex items-center gap-3">
-          <button className="hidden md:block rounded-xl bg-[#3461FF] px-5 py-2 text-[14px] font-semibold text-white shadow-sm transition hover:bg-blue-700">
-            Sign Up for Free
-          </button>
-          <button className="hidden md:block rounded-xl border border-gray-300 bg-white px-5 py-2 text-[14px] font-semibold text-black shadow-sm transition hover:bg-gray-50">
-            Log In
-          </button>
+          <a href="https://app.aakt.io/register" target="_blank" rel="noopener noreferrer">
+
+            <button className="hidden md:block rounded-xl bg-[#3461FF] px-5 py-2 text-[14px] font-semibold text-white shadow-sm transition hover:bg-blue-700">
+              Sign Up for Free
+            </button>
+          </a>
+          <a href="https://app.aakt.io" target="_blank" rel="noopener noreferrer">
+
+            <button className="hidden md:block rounded-xl border border-gray-300 bg-white px-5 py-2 text-[14px] font-semibold text-black shadow-sm transition hover:bg-gray-50">
+              Log In
+            </button>
+          </a>
 
           {/* Hamburger */}
-          <button
+          {/* <button
             className="flex md:hidden flex-col gap-[5px] p-1 cursor-pointer"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
@@ -47,7 +53,7 @@ const Navbar = () => {
             <span className={`block w-[22px] h-0.5 bg-[#1A1A2E] rounded-sm transition-all duration-300 ${mobileOpen ? 'rotate-45 translate-x-[5px] translate-y-[5px]' : ''}`} />
             <span className={`block w-[22px] h-0.5 bg-[#1A1A2E] rounded-sm transition-all duration-300 ${mobileOpen ? 'opacity-0' : ''}`} />
             <span className={`block w-[22px] h-0.5 bg-[#1A1A2E] rounded-sm transition-all duration-300 ${mobileOpen ? '-rotate-45 translate-x-[5px] -translate-y-[5px]' : ''}`} />
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>

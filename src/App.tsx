@@ -8,6 +8,7 @@ import Audience from './components/Audience';
 import Problem from './components/Problem';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
+import DodoWidget from './components/DodoWidget';
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
         <Pricing />
       </main>
       <Footer />
+      <DodoWidget />
     </div>
   );
 }

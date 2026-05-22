@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -46,10 +47,6 @@ const Footer = () => {
           <button className="px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 transition text-white font-semibold shadow-lg">
             Get Free Early Access
           </button>
-
-          <button className="px-6 py-3 rounded-lg bg-white hover:bg-gray-100 transition text-black font-semibold shadow-lg">
-            Request Demo
-          </button>
         </motion.div>
 
         {/* Links */}
@@ -62,21 +59,18 @@ const Footer = () => {
           data-aos-duration="2000"
           data-aos-delay="600"
         >
-          <a href="#" className="hover:text-white transition">
+          <Link to="/privacy-policy" className="hover:text-white transition">
             Privacy Policy
-          </a>
+          </Link>
 
-          <a href="#" className="hover:text-white transition">
+          <Link to="/terms-of-service" className="hover:text-white transition">
             Terms of Service
+          </Link>
+
+          <a href="https://admin.aakt.io" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            Admin Portal
           </a>
 
-          <a href="#" className="hover:text-white transition">
-            Support
-          </a>
-
-          <a href="#" className="hover:text-white transition">
-            Contact
-          </a>
         </motion.div>
       </div>
 

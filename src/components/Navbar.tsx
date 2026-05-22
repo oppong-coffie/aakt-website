@@ -32,13 +32,13 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <a href="https://app.aakt.io/register" target="_blank" rel="noopener noreferrer">
 
-            <button className="hidden md:block rounded-xl bg-[#3461FF] px-5 py-2 text-[14px] font-semibold text-white shadow-sm transition hover:bg-blue-700">
+            <button className="rounded-xl bg-[#3461FF] px-5 py-2 text-[14px] font-semibold text-white shadow-sm transition hover:bg-blue-700">
               Sign Up for Free
             </button>
           </a>
           <a href="https://app.aakt.io" target="_blank" rel="noopener noreferrer">
 
-            <button className="hidden md:block rounded-xl border border-gray-300 bg-white px-5 py-2 text-[14px] font-semibold text-black shadow-sm transition hover:bg-gray-50">
+            <button className="rounded-xl border border-gray-300 bg-white px-5 py-2 text-[14px] font-semibold text-black shadow-sm transition hover:bg-gray-50">
               Log In
             </button>
           </a>

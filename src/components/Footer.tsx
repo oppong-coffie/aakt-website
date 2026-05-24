@@ -36,6 +36,7 @@ const Footer = () => {
 
         {/* Buttons */}
         <motion.div
+        onClick={() => window.open("https://app.aakt.io", "_blank")}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.35, duration: 0.6 }}

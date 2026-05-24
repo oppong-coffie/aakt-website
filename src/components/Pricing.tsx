@@ -42,7 +42,7 @@ const Pricing = () => {
           </p>
 
           <a
-            href="#"
+            href="https://app.aakt.io"
             className="block w-full py-3 text-center bg-[#4338CA] text-white text-[15px] font-semibold rounded-lg transition-all hover:bg-[#3730A3] hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(67,56,202,0.3)] mb-4"
             id="pricing-cta"
             data-aos="fade-up"

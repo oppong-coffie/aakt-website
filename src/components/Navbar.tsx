@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -21,10 +22,10 @@ const Navbar = () => {
     >
       <div className="w-full max-w-[1140px] mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2.5 font-semibold text-xl text-[#1A1A2E]" id="logo">
+        <Link to="/" className="flex items-center gap-2.5 font-semibold text-xl text-[#1A1A2E]" id="logo">
       
           <span className="">AAKT</span>
-        </a>
+        </Link>
 
       
 
